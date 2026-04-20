@@ -1,0 +1,44 @@
+# ia-llm-rag
+Backend para implementar Retrieval-Augmented Generation (RAG) con modelos de lenguaje. Integra Milvus como base vectorial y Ollama para ejecutar LLMs locales. Construido con Spring Boot, permite búsquedas semánticas y generación de respuestas contextualizadas a partir de documentos.
+
+
+# IA‑LLM‑MedRAG: AI RAG Knowledge Service
+
+## 📖 Descripción
+**IA‑LLM‑MedRAG** es un servicio de conocimiento basado en **RAG (Retrieval-Augmented Generation)** diseñado para el ámbito médico.  
+El sistema permite:
+- Ingesta de documentos PDF.
+- Segmentación de texto (*chunking*).
+- Generación de embeddings semánticos.
+- Almacenamiento y búsqueda vectorial.
+- Exposición de una API REST para consultas.
+
+Este proyecto está construido sobre **Spring Boot 3.5.12** y **Spring AI 1.1.3**, integrando modelos de lenguaje y almacenamiento vectorial para ofrecer respuestas fundamentadas en evidencia médica.
+
+---
+
+## ⚙️ Tecnologías principales
+- **Java 21**
+- **Spring Boot** (Web, Validation, Actuator)
+- **Spring AI** (Ollama, Vector Store Milvus)
+- **Apache PDFBox** (procesamiento de PDFs)
+- **Lombok** (reducción de boilerplate)
+- **Milvus** (base de datos vectorial)
+- **Spring Boot DevTools** (hot reload)
+- **JUnit / Spring Boot Test** (testing)
+
+---
+
+## 📂 Estructura del Proyecto
+- `com.medico.ia.knowledge.Main` → clase principal del servicio.
+- `ai-rag-knowledge-service` → artefacto Maven.
+- Dependencias gestionadas con **Spring AI BOM**.
+
+---
+
+## 🚀 Instalación y Ejecución
+
+
+
+🚧 Estado del Proyecto
+Modelo en desarrollo
