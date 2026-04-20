@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "e6d2c7fc-d552-4451-9886-919c528983e2",
+		"name": "ai-rag-knowledge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30474215"
+	},
+	"item": [
+		{
+			"name": "Chunks",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"query\": \"experiencia laboral de Leonardo Villagrán\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/knowledge/searchChunks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"knowledge",
+						"searchChunks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "promt",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"query\": \"cuantas companias trabajo Leonardo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/knowledge/promt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"knowledge",
+						"promt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ingesta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/home/lvillagran/ia-llm-rag/data/Leonardo_Villagran_CV_EN.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/knowledge/ingesta?",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"knowledge",
+						"ingesta"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
