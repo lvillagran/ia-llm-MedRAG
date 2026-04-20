@@ -32,7 +32,7 @@ Este proyecto está construido sobre **Spring Boot 3.5.12** y **Spring AI 1.1.3*
 ## 📂 Estructura del Proyecto
 - `com.medico.ia.knowledge.Main` → clase principal del servicio.
 - `ai-rag-knowledge-service` → artefacto Maven.
-- Dependencias gestionadas con **Spring AI BOM**.
+- Dependencias gestionadas con **Spring AI POM**.
 
 ---
 ## 🚀 BackEnd
