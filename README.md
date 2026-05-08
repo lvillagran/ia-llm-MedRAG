@@ -57,5 +57,7 @@ Este proyecto está construido sobre **Spring Boot 3.5.12** y **Spring AI 1.1.3*
 ## 🚀 Instalación y Ejecución
 
 
-🚧 Estado del Proyecto
-Modelo en desarrollo
+- 🚨🚧🔨🕜⛔Trabajando...
+## Autor:
+Leonardo Villagran | LevisDev  
+- [LinkedIn] https://www.linkedin.com/in/lvillagrans
